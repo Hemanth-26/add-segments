@@ -1,0 +1,47 @@
+/* .gradient-custom {
+  background: #6a11cb;
+
+  background: -webkit-linear-gradient(
+    to right,
+    rgba(106, 17, 203, 1),
+    rgba(37, 117, 252, 1)
+  );
+
+  background: linear-gradient(
+    to right,
+    rgba(106, 17, 203, 1),
+    rgba(37, 117, 252, 1)
+  );
+} */
+
+.popup-header {
+  background-color: #00b89f;
+}
+
+.input-con label {
+  font-size: 1rem;
+}
+
+.input-con p {
+  font-size: 0.8rem;
+}
+
+/* small devices responsive min to tablet */
+@media only screen and (max-width: 600px) {
+  html {
+    font-size: 10px;
+  }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+/* Medium devices and Large devices (laptops/desktops, 768px and up) */
+@media only screen and (min-width: 992px) {
+  html {
+    font-size: 16px;
+  }
+}
