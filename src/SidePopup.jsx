@@ -122,7 +122,7 @@ function SidePopup({ toggleDrawer }) {
               />
             ))}
 
-            <div>
+            {listData.length > selectFields.length && <div>
               <Link
                 component="button"
                 underline="always"
@@ -131,7 +131,7 @@ function SidePopup({ toggleDrawer }) {
               >
                 +Add new schema
               </Link>
-            </div>
+            </div>}
           </div>
         </div>
 
