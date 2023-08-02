@@ -5,7 +5,7 @@ import SidePopup from './SidePopup';
 import "./App.css";
 
 function App() {
-  const [drawer, setDrawer] = useState(true);
+  const [drawer, setDrawer] = useState(false);
 
   const toggleDrawer = (open) => (event) => {
     if (event.type === 'keydown' && (event.key === 'Tab' || event.key === 'Shift')) {
